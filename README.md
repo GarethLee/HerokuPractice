@@ -1,2 +1,2 @@
 # HerokuPractice
-For WEB
+WEB Personal Project
