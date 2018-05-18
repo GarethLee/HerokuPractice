@@ -1,0 +1,22 @@
+{
+  "name": "herokupractice",
+  "version": "1.0.0",
+  "description": "Heroku practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethLee/HerokuPractice.git"
+  },
+  "author": "Gareth Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GarethLee/HerokuPractice/issues"
+  },
+  "homepage": "https://github.com/GarethLee/HerokuPractice#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
