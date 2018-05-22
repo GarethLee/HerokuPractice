@@ -19,7 +19,6 @@ app.get("/", function(req,res){
 
 // setup another route to listen on /about
 app.get("/about", function(req,res){
-  // Don't use it 
   res.sendFile(path.join(__dirname, "/views/about.html"));
 });
 
