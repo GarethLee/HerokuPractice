@@ -9,9 +9,6 @@ function onHttpStart() {
   console.log("Express http server listening on: " + HTTP_PORT);
 }
 
-// set the view engine to ejs
-app.set('view engine', 'ejs');
-
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
@@ -23,10 +20,7 @@ app.get("/", function(req,res){
 // setup another route to listen on /about
 app.get("/about", function(req,res){
   // Don't use it 
-  //res.sendFile(path.join(__dirname, "/views/about.ejs"));
-
-  // ejs render automatically looks in the views folder
-   res.render('about');
+  res.sendFile(path.join(__dirname, "/views/about.html"));
 });
 
 // setup http server to listen on HTTP_PORT
